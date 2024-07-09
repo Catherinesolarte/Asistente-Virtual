@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Titulo-->
+    <title>Asistente Virtual</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Favicon-->
+    <link
+      rel="icon"
+      type="imag/png"
+      sizes="32x32"
+      href="./assets/favicon/Favicon cathe.jpeg"
+    />
+  </head>
+  <body>
+    <!-- Encabezado principal de la página -->
+    <header>
+      <h1>Asistente Virtual</h1>
+    </header>
+
+    <!-- Sección principal del contenido -->
+    <main>
+      <!-- Sección de introducción -->
+      <section id="introduction">
+        <h2>Bienvenido al Asistente Virtual</h2>
+        <p>
+          Estoy aquí para ayudarte con cualquier pregunta o tarea que necesites.
+        </p>
+      </section>
+
+      <!-- Sección de interacción con el usuario -->
+      <section id="interaction">
+        <h2>Chat</h2>
+        <div class="chat-container">
+          <!-- Área de visualización de mensajes -->
+          <div class="chat-display" id="chat-display">
+            <!-- Ejemplo de mensaje -->
+            <div class="message user-message">
+              <p>Hola, ¿cómo te puedo ayudar hoy?</p>
+            </div>
+          </div>
+          <!-- Área de entrada de mensajes -->
+          <div class="chat-input">
+            <input
+              type="text"
+              id="user-input"
+              placeholder="Escribe tu mensaje aquí..."
+            />
+            <button id="send-button">Enviar</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de página de la página -->
+    <footer>
+      <p>
+        &copy; 2024 Asistente Virtual Cathe s. Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
